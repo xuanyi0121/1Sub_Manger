@@ -29,6 +29,8 @@ pip install -r requirements.txt
 Linux:
 
 ```
+apt-get upgrade -y 
+apt install -y python3 python3-pip 
 pip3 install -r requirements.txt
 ```
 
@@ -45,4 +47,11 @@ python3 main.py -s <超级管理员的TG_ID> -a <超级管理员的TG_ID,管理�
 python3 main.py
 ```
 
+挂screen自动运行
+```
+apt install screen 
+screen -S Sub_Manger 
+cd ./Sub_Manger 
+python3 main.py
+```
 
